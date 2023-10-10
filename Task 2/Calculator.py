@@ -12,9 +12,9 @@ def multiplication(number1, number2):
 
 def division(number1, number2, division_type):
     try:
-        if division_type.upper() == "INT":
+        if division_type.upper() == "INTEGER":
             answer = number1 // number2
-        elif division_type.upper() == "FLOOR":
+        elif division_type.upper() == "FLOAT":
             answer = number1 / number2
         return answer
     except ZeroDivisionError:
@@ -32,7 +32,7 @@ elif operation.lower() == "subtraction":
 elif operation.lower() == "multiplication":
     result = multiplication(first_number, second_number)
 elif operation.lower() == "division":
-    division_type = input("Enter division type (int or floor): ")
+    division_type = input("Enter division type (integer or float): ")
     result = division(first_number, second_number, division_type)
 else:
     result = "Invalid operation"
