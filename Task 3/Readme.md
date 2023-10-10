@@ -1,12 +1,12 @@
-### Password Generator in Python
-## Overview
+## Password Generator in Python
+### Overview
 This Password Generator tool is designed to create strong, randomized passwords based on user preferences. It is built using Python and harnesses the string and random libraries to generate passwords with a combination of lowercase, uppercase, digits, and symbols.
 
-## Features
+### Features
 - Custom Password Length: Users can specify the desired length of the password.
 - Randomized Password Generation: The tool uses a combination of random characters to generate a password.
 - Error Handling: The program ensures users enter a valid number for the password length.
-## Instructions
+### Instructions
 # Requirements:
 Python 3.x
 # Running the Tool:
