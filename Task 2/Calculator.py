@@ -18,7 +18,7 @@ def division(number1, number2, division_type):
             answer = number1 / number2
         return answer
     except ZeroDivisionError:
-        return "Division by zero is not allowed."
+        print("Division by zero is not allowed.")
 
 print("Simple Calculator")
 first_number = int(input("Enter first number: "))
