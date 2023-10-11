@@ -7,7 +7,7 @@ The program consists of two main classes:
 
 - Contact - Represents a contact with attributes like store name, phone number, email, and address.
 - ContactManager - Manages a list of contacts and provides methods to perform operations on the list.
-- 
+  
 ## How to Use
 - Main Menu
 When you run the program, you will be presented with the following options:
